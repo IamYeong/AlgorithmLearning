@@ -9,6 +9,7 @@ public class Max3 {
 	//Return max Integer from input number
 	public void max3(int a, int b, int c) {
 
+		/*
 		int n = 0;
 
 		if (a > b && a > c) {
@@ -16,6 +17,20 @@ public class Max3 {
 		} else if (b > a && b > c) {
 			n = b;
 		} else {
+			n = c;
+		}
+
+		 */
+
+		//Concatenation(a보다 b가 큰가? 그럼 a보다 c가 큰가? 순차적 구조)
+		int n = a;
+
+		//if() is Selection(선택 구조)
+		if (b > n) {
+			n = b;
+		}
+
+		if (c > n) {
 			n = c;
 		}
 
