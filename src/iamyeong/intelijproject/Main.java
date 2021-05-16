@@ -1,6 +1,8 @@
 package iamyeong.intelijproject;
 
+import iamyeong.intelijproject.easyspub.exercise.chap01.JudgeSign;
 import iamyeong.intelijproject.easyspub.exercise.chap01.Max3;
+import iamyeong.intelijproject.easyspub.exercise.chap01.Median;
 
 public class Main {
 
@@ -16,5 +18,10 @@ public class Main {
         Max3 max3 = new Max3();
         max3.max3(1, 2, 3);
 
+        Median median = new Median();
+        median.med3(1, 2, 3);
+
+        JudgeSign judgeSign = new JudgeSign();
+        judgeSign.judgeSign(-1);
     }
 }
